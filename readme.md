@@ -1,1 +1,39 @@
 Requirement gathering for Bookmyshow
+
+List of participants/actors and the sequences.
+
+a User who will book the ticket
+
+a.1 Select the location.
+a.2 Select the genre/category
+a.3 Display the general view like all the sub data of the selected category
+a.4 Search for the specific data in the selected category/movie.
+a.5 If the perticular category/sub category is not available for booking, then the user should get notification when it is allowed.
+a.6 Search for the venue/theatare.
+a.7 User will select the date and  time.
+a.8 User will select seats.
+a.9 User will confirm booking.
+a.10 User will proceed to payment.
+a.11 User will get a confirm booking message , QR code.
+a.12 After completion of the whole flow, user will be able to submit a review or comment.
+a.13 User will be also able to rate the booking experience.
+
+For other genres samne process will be followed.
+
+
+b The event accountable for the following scenarios
+b.1 The system should register the event.
+b.2 Show according to Language/Category and location.
+b.3 Register the date.
+b.4 Register the timings.
+b.5 Register according to location.
+b.6 Register according to availablity.
+b.7 should be able to confirm if the event is booked
+b.8 Should be able to cancel if the event is cancelled.
+
+C The System should take care of following event.
+c.1 Update the status of availablity.
+c.2 Show status of new availablity of seats.
+c.3 Inform/Notify the user regarding the confirmation/cancellation/promotions/new releases.
+c.4 process the payment through payment gateway.
+
