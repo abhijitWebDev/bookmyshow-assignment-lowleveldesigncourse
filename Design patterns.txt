@@ -1,0 +1,31 @@
+Design Pattern
+
+1 Factory Design Pattern
+
+1 Registering/creating theatre
+a Theatre Factory
+ -- One/Single screen
+ -- Multiscreen
+ -- Imax
+
+2 Movie genre creation
+ b MovieFactory
+--- Comedy Movie
+--- Action Movie
+--- Horror Movie
+--- Many More
+
+
+2 Singleton design pattern
+ -- Database Connection
+ -- Congifuration
+-- Logger.
+
+3 Observer Design Pattern
+-- Ticket Booking Notification(Cancellation and Updation of the ticket booking) wrt Ticket booking executive and theatre owner.
+-- Promotions, New notifications includes (Customers and managers)
+ 
+4 Strategy design pattern
+ 
+a Search Movie(by rating, actors, date, city , availablity)
+b Search Theatre (by Theatre type, movie, distance, city).
